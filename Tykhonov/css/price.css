@@ -1,0 +1,26 @@
+.block_wrap {
+	flex-direction: column;
+	overflow-x:auto
+}
+
+.pricing_table {
+	width: 100%;
+	min-width: 500px;
+	border-collapse: collapse;
+}
+
+.pricing_table th, .pricing_table td {
+	padding: 5px;
+	border: 2px solid white;
+	min-width: 100px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.pricing_table th {
+	background-color: #4CAF50;
+}
+
+.pricing_table td {
+	position: relative;
+}

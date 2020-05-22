@@ -1,0 +1,31 @@
+.about_text {
+	flex-basis: calc(100% - 40% - 50px);
+}
+
+.about_text p {
+	font-size: 22px;
+	line-height: 30px;
+	margin: 25px 10px;
+	opacity: .7;
+}
+
+.about_img {
+	margin-right: 50px;
+}
+
+@media (max-width: 980px) {
+	.about_text {
+		flex-basis: calc(100% - 40% - 30px);
+	}
+
+	.about_img {
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 770px) {
+	.about_text {
+		flex-basis: auto;
+	}
+}
+

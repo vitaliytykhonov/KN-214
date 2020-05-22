@@ -1,0 +1,21 @@
+.logan_img {
+	flex-basis: 40%;
+}
+
+.logan_img img {
+	display: block;
+	max-width: 100%;
+	opacity: .7;
+	border-radius: 10px;
+}
+
+@media (max-width: 980px) {
+
+}
+
+@media (max-width: 770px) {
+	.logan_img {
+		margin: 0 0 20px 0;
+		flex-basis: auto;
+	}
+}
